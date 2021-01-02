@@ -1,12 +1,12 @@
 {
-  "name": "tsjdk",
+  "name": "typescript-java",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.ts",
+    "test": "nodemon dist/index.js"
   },
   "keywords": [],
   "author": "im-lonely <cursors.dev@gmail.com>",
