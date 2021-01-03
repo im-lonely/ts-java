@@ -1,1 +1,1 @@
-# tsjdk
+# typescript-java
